@@ -37,9 +37,9 @@ SELECT*
     (3, 'OPNYT','Verdes', 'Adidas', '35');
     
 	INSERT INTO empleados ( id_empleado, nombre, tienda, salario, fecha_incorporacion) 
-    VALUES (1, 'Laura','Alcobendas', 25.987, 03/09/2010), 
-	(2, 'Maria','Sevilla', 0, 11/04/2001),
-    (3, 'Ester','Oviedo', 30.16598, 29/11/2000);
+    VALUES (1, 'Laura','Alcobendas', 25987, '2010-09-03'), 
+	(2, 'Maria','Sevilla', 0, '2001-04-11'),
+    (3, 'Ester','Oviedo', 30165.98, '2000-11-29');
     
     INSERT INTO clientes ( id_cliente, nombre, numero_telefono, email, direccion, ciudad, provincia, codigo_postal) 
     VALUES (1, 'Monica', '1234567289', 'monica@email.com', 'Calle Felicidad', 'Móstoles', 'Madrid', 28176), 
@@ -47,9 +47,9 @@ SELECT*
     (3, 'Carmen','298463759', 'carmen@email.com', 'Calle del Color', 'Vigo', 'Pontevedra', 23456);
     
     INSERT INTO facturas ( id_factura, numero_factura, fecha, id_zapatillas, id_empleados, id_clientes, total) 
-    VALUES (1, '123', 11/12/2001, 1, 2, 1, 54.98), 
-	(2, 1234, 23/05/2005, 1, 1, 3, 89.91),
-    (3, 12345, 18/09/2015, 2, 3, 3, 76.23);
+    VALUES (1, '123', '2001-12-11', 1, 2, 1, 54.98), 
+	(2, 1234, '2005-05-23', 1, 1, 3, 89.91),
+    (3, 12345, '2015-09-28', 2, 3, 3, 76.23);
     
    -- 3. De nuevo nos hemos dado cuenta que hay algunos errores en la inserción de datos. En este ejercicios los actualizaremos para que nuestra BBDD este perfecta.
    
