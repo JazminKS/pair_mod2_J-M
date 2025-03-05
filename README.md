@@ -8,4 +8,3 @@ Este repositorio contiene ejercicios desarrollados durante Pair Programming del 
 5. SQL: Modificación e Inserción de Datos.
 6. SQL Queries Básicas.
 7. Python + SQL.
-8. SQL Queries Avanzadas.
